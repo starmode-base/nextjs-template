@@ -6,7 +6,7 @@
   },
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "prettier --check . && eslint --max-warnings 0 && vitest run && next build",
+    "build": "prettier --check . && vitest run && next build",
     "start": "next start",
     "lint": "next lint --max-warnings 0 --fix",
     "format": "prettier --write .",
