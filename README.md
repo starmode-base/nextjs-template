@@ -1,3 +1,54 @@
+# template-nextjs
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and enahnced with my favorite configuration and tooling.
+
+## Recommendations
+
+- Use [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md) to install Node.js and NPM
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub Desktop](https://desktop.github.com/)
+
+## Prerequisites
+
+1. Install Node.js 18 and NPM 9 (using [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md))
+
+1. Check out this [Git repo](https://github.com/lirbank/nextjs-template) locally.
+
+## Getting started
+
+You only have to do this the first time you set up the app.
+
+1. Run `npm install` or `npm run deps-check` to install dependencies
+
+1. Run `npx vercel@latest link` to link your local project to Vercel. This will enable you to automatically pull environment variables for development. nextjs-template is hosted under the `Mikael Lirbank` Vercel project as `lirbank/nextjs-template`. The development environment variables are pulled down from Vercel every time the app is started with `npm run dev`.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Preconfigured packages and tools
+
+- https://nextjs.org/
+- https://vitest.dev/
+- https://tailwindcss.com/docs/guides/nextjs
+- https://prettier.io/
+- https://typescript-eslint.io/linting/configs/#strict
+- https://www.npmjs.com/package/eslint-plugin-deprecation
+- https://www.npmjs.com/package/@total-typescript/ts-reset
+- https://www.npmjs.com/package/tiny-invariant
+- https://code.visualstudio.com/
+
+## Scripts
+
+- `npm run dev` - Pull the latest developer environment variables from Vercel and start the development server
+- `npm run build` - Check Prettier formatting, run tests, and build the production app. This script is run by Vercel when deploying.
+- `npm run start` - Run the app built with `npm run build`
+- `npm run lint` - Link all files
+- `npm run prettier` - Format all files with Prettier
+- `npm run test` - Run tests in watch mode
+- `npm run deps-check` - Install dependencies and check for available updates
+- `npm run deps-upgrade` - Upgrade dependencies with minor and patch versions
+
+# Next.js documentation
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
