@@ -14,16 +14,21 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Prerequisites
 
-1. Install Node.js 22 (using [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md))
-1. Clone this [Git repo](https://github.com/starmode-base/nextjs-template)
-
-## Getting started
-
 You only have to do this the first time you set up the app.
 
-1. Run `bun install` to install dependencies
+1. Install [Node.js](https://nodejs.org/) v22 (using [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md))
+1. Install [Bun](https://bun.sh/)
+1. Clone the [Git repo](https://github.com/starmode-base/nextjs-template)
+1. Install dependencies: `bun install`
+1. Link the Vercel project, to be able to pull development environment variables from Vercel: `bunx vercel@latest link`
+   - Set up “~/GitHub/starmode-base/nextjs-template”? yes
+   - Which scope should contain your project? STAR MODE
+   - Found project “starmode/nextjs-template”. Link to it? yes
 
-1. Run `bunx vercel@latest link` to link your local project to Vercel. This will enable you to automatically pull environment variables for development. nextjs-template is hosted under the `Mikael Lirbank` Vercel project as `lirbank/nextjs-template`.
+### Local development
+
+1. Pull development environment variables from Vercel: `bun env:pull`
+1. Start the app in development mode: `bun dev`
 
 ## Preconfigured packages and tools
 
