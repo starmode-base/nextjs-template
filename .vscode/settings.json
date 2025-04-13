@@ -11,5 +11,5 @@
   "search.exclude": {
     "**/bun.lock": true
   },
-  "tailwindCSS.experimental.configFile": "src/styles/app.css"
+  "tailwindCSS.experimental.configFile": "app/globals.css"
 }
