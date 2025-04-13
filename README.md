@@ -7,7 +7,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Recommendations
 
 - [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md) to install Node.js and NPM
-- [Cursor](https://code.visualstudio.com/)
+- [Cursor](https://www.cursor.com/)
 - [GitHub Desktop](https://desktop.github.com/)
 
 ## Prerequisites
