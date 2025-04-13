@@ -6,6 +6,31 @@ Next.js is great for content sites. If you are building an interactive web app, 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and enahnced with our favorite configuration and tooling.
 
+## Template usage
+
+### Setup
+
+1. Create a new repo from this [template repo](https://github.com/new?template_name=nextjs-template&template_owner=starmode-base)
+1. In the new repo, add the template as a remote named upstream: `git remote add upstream https://github.com/starmode-base/nextjs-template.git`
+1. Fetch the latest changes from the template `git fetch upstream`
+
+### Pulling in updates from the template
+
+When you want to sync in changes from the template:
+
+```sh
+git fetch upstream
+git merge upstream/main --allow-unrelated-histories
+```
+
+Optional: Use a dedicated sync branch to test merges:
+
+```sh
+git checkout -b template-sync
+git merge upstream/main --allow-unrelated-histories
+# Resolve conflicts if any, test, then merge into main
+```
+
 ## Recommendations
 
 - [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md) to install Node.js and NPM
