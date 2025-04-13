@@ -11,6 +11,7 @@
     "lint": "next lint --max-warnings 0 --fix",
     "format": "prettier --write .",
     "test": "vitest",
+    "env:pull": "bunx vercel@latest env pull .env",
     "clean": "rm -rf node_modules tsconfig.tsbuildinfo bun.lock .output .next && bun install"
   },
   "dependencies": {
