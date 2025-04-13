@@ -2,11 +2,12 @@
   "recommendations": [
     "bradlc.vscode-tailwindcss",
     "dbaeumer.vscode-eslint",
-    "dotenv.dotenv-vscode",
     "esbenp.prettier-vscode",
-    "github.copilot",
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github",
+    "oven.bun-vscode",
     "stkb.rewrap",
-    "wmaurer.change-case",
-    "zixuanchen.vitest-explorer"
+    "vitest.explorer",
+    "wmaurer.change-case"
   ]
 }

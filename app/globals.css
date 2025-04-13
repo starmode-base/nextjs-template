@@ -1,11 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Font imports must be at the very top of this file, even before the tailwind import */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/* https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer */
+/* Tailwind CSS */
+@import "tailwindcss";
+
+@theme {
+  /* Font tokens */
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Button cursor */
 @layer base {
-  html,
-  body {
-    @apply h-full;
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
   }
 }
