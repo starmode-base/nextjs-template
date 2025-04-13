@@ -1,6 +1,8 @@
 # template-nextjs
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and enahnced with our favorite configuration and tooling.
+Next.js is great for content sites. If you are building an interactive web app, consider using TanStack Start.
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and enahnced with our favorite configuration and tooling.
 
 ## Recommendations
 
