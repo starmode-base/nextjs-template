@@ -21,7 +21,7 @@ You only have to do this the first time you set up the app.
 
 1. Run `bun install` to install dependencies
 
-1. Run `npx vercel@latest link` to link your local project to Vercel. This will enable you to automatically pull environment variables for development. nextjs-template is hosted under the `Mikael Lirbank` Vercel project as `lirbank/nextjs-template`. The development environment variables are pulled down from Vercel every time the app is started with `npm run dev`.
+1. Run `bunx vercel@latest link` to link your local project to Vercel. This will enable you to automatically pull environment variables for development. nextjs-template is hosted under the `Mikael Lirbank` Vercel project as `lirbank/nextjs-template`.
 
 ## Preconfigured packages and tools
 
@@ -37,12 +37,13 @@ You only have to do this the first time you set up the app.
 
 ## Scripts
 
-- `npm run dev` - Pull the latest developer environment variables from Vercel and start the development server
-- `npm run build` - Check Prettier formatting, run tests, and build the production app. This script is run by Vercel when deploying.
-- `npm run start` - Run the app built with `npm run build`
-- `npm run lint` - Link all files
-- `npm run format` - Format all files with Prettier
-- `npm run test` - Run tests in watch mode
+- `bun run dev` - Start the development server
+- `bun run build` - Check Prettier formatting, run tests, and build the production app. This script is run by Vercel when deploying.
+- `bun run start` - Run the built app
+- `bun run lint` - Lint all files
+- `bun run format` - Format all files with Prettier
+- `bun run test` - Run tests in watch mode
+- `bun run env:pull` - Pull the latest developer environment variables from Vercel
 
 # Next.js documentation
 
