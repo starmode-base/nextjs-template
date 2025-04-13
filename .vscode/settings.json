@@ -8,15 +8,8 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "npm.packageManager": "bun",
-  "files.watcherExclude": {
-    "**/routeTree.gen.ts": true
-  },
   "search.exclude": {
-    "**/bun.lock": true,
-    "**/routeTree.gen.ts": true
-  },
-  "files.readonlyInclude": {
-    "**/routeTree.gen.ts": true
+    "**/bun.lock": true
   },
   "tailwindCSS.experimental.configFile": "src/styles/app.css"
 }
