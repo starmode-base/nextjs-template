@@ -1,4 +1,4 @@
-# template-nextjs
+# nextjs-template
 
 Next.js is great for content sites. If you are building an interactive web app, consider using TanStack Start.
 
@@ -13,7 +13,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Prerequisites
 
 1. Install Node.js 22 (using [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md))
-1. Clone this [Git repo](https://github.com/starmode-base/template-nextjs)
+1. Clone this [Git repo](https://github.com/starmode-base/nextjs-template)
 
 ## Getting started
 
