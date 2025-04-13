@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github",
+    "oven.bun-vscode",
+    "stkb.rewrap",
+    "vitest.explorer",
+    "wmaurer.change-case"
+  ]
+}
